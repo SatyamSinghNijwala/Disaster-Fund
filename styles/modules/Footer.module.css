@@ -1,0 +1,35 @@
+/* File: styles/modules/Footer.module.css */
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 2rem 1.5rem;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.links a:hover {
+    color: var(--dl-color-theme-primary1);
+}

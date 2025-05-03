@@ -1,0 +1,39 @@
+/* File: styles/modules/Hero.module.css */
+
+.heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: var(--dl-color-theme-neutral-light);
+    padding: var(--dl-layout-space-fourunits) 1.5rem;
+    text-align: center;
+  }
+  
+  .heroContent {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--dl-layout-space-oneandhalfunits);
+  }
+  
+  .heroTitle {
+    font-size: 3rem;
+    color: var(--dl-color-theme-primary1);
+    font-weight: 700;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.25rem;
+    color: var(--dl-color-theme-neutral-dark);
+    line-height: 1.6;
+  }
+  
+  .heroActions {
+    margin-top: var(--dl-layout-space-twounits);
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

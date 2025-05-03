@@ -1,0 +1,38 @@
+/* File: styles/modules/Donate.module.css */
+
+.donateSection {
+    padding: 4rem 2rem;
+    background-color: #e9f7ef;
+    color: #155724;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.25rem;
+    color: green;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form input,
+.form button {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #28a745;
+    font-size: 1rem;
+}
+
+.form input:focus {
+    outline: 1px solid var(--dl-color-theme-primary1);
+}
