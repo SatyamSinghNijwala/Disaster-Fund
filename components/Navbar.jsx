@@ -34,6 +34,8 @@ const Navbar = () => {
           <a href="#Beneficiaries">Beneficiaries</a>
           <a href="#Volunteer">Volunteer</a>
           <a href="#Feedback">Feedback</a>
+          <Link href="/terms">Terms & Conditions</Link>
+          <Link href="/refund-policy">Refund Policy</Link>
         </nav>
         <div className={styles.navActions}>
           {isLoggedIn ? (
